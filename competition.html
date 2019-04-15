@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Competition information">
+	  <meta name="keywords" content="IEEE, GameSIG, gaming, competition, esports">
+    <meta name="author" content="The Denenbees">
+    <title>IEEE GameSIG | Competition</title>
+    <link rel="stylesheet" href="./css/competition.css">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/hamburger_menu.js"></script>
+    <link rel="stylesheet" href="./css/hamburger.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- Main Header -->
+
+    <header>
+      <div class="container">
+        <center>
+          <div>
+            <a href="index.html"><img id="logo" src='./img/logo.png' ></a>
+          </div>
+        </center>
+      </div>
+      <div class='social_media'>
+        <a href=""><img src='./img/social_media/youtube_icon.png'></a>
+        <a href=""><img src='./img/social_media/facebook_icon.png'></a>
+        <a href=""><img src='./img/social_media/twitter_icon.png'></a>
+        <a href=""><img src='./img/social_media/instagram_icon.png'></a>
+      </div>
+
+      <div class="container">
+        <center>
+          <nav id="main_header">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li class="current"><a href="competition.html">COMPETITION</a></li>
+              <li><a href="registration_tickets.html">REGISTRATION / TICKETS</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+          </nav>
+        </center>
+      </div>
+    </header>
+
+    <!-- Subheader -->
+
+    <header id="subheader">
+      <div class="container">
+        <center>
+          <nav>
+            <ul id="inner_subheader">
+              <li><a href="index.html"><img src='./img/subheader_icons/home.png'>HOME</a></li>
+              <li><a class="current" href="#rules_and_regulations"><img src='./img/subheader_icons/rules_regs2.png'> Rules & Regulation</a></li>
+              <li><a href="#judges"><img src='./img/subheader_icons/judge3.png'> Judges</a></li>
+              <li><a href="#sponsors"><img src='./img/subheader_icons/handshake2.png'>Sponsors</a></li>
+              <li><a href="#event_history"><img src='./img/subheader_icons/event2.png'>Event History</a></li>
+            </ul>
+          </nav>
+        </center>
+      </div>
+    </header>
+
+    <nav id='navigation'>
+      <div id="menuToggle">
+        <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+
+        <ul id="menu">
+          <li class="current"><a href="index.html">HOME</a></li>
+          <li><a href="competition.html">COMPETITION</a></li>
+          <li><a href="registration_tickets.html">REGISTRATION / TICKETS</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Rules and Regulations -->
+
+    <div class="content" id="rules_and_regulations">
+        <br>
+        <center>
+          <h1 >Rules & Regulations</h1>
+        </center>
+          <div class="container">
+
+            <!-- Rules and Regulations - Video -->
+
+            <div class="grid-container-25-75">
+              <div id="rules" class="grid-item">
+                <img src='./img/rules_regs/youtube2.png'>
+              </div>
+              <div class='grid-item'>
+                <p>Between 30 and 50 teams will submit a YouTube video promoting their game this year. Consider your
+                  video as a "movie trailer" or "marketing pitch". Your video will be individually reviewed by a group
+                   of industry and academic personnel. They will rank each submission based on their perceptions of
+                   the potential game play experience and marketability of the product as shown in the video. They
+                   will also evaluate the conformity of the design to the one-page PDF document.</p>
+
+                <p>Only the ten highest-ranking submissions will be accepted for the final round of the competition.
+                   Your video needs to be engaging. It needs to clearly explain the strengths of the design and why
+                   it will appeal to your target audience.</p>
+
+                <p>It is expected that teams will modify their games after submitting a video, but only one video
+                  may be submitted. Judges will not see the videos. They will make their final judgments based on
+                  the live demos given during the event.</p>
+              </div>
+            </div>
+
+            <hr>
+
+            <!-- Rules and Regulations - Registration Form -->
+            <div class="grid-container-80-20">
+              <div class="grid-item">
+                <p>A one-page PDF document will be generated once you complete the registration form. Click here to go directly to the <a class="clickable" href="registration_tickets.html">Registeration Form.</a></p>
+
+                <p>This one-pager should include the following elements and must not use a font smaller than 9 point:</p>
+                <ul>
+                  <li>Game Name</li>
+                  <li>Team Name</li>
+                  <li>Title and one-sentence game description (“elevator pitch”)</li>
+                  <li>List of the team member names, graduation years, school names and majors</li>
+                  <li>Faculty member names, schools and contact information</li>
+                  <li>Game Engine</li>
+                  <li>Key features of the game</li>
+                  <li>One-paragraph summary of game play and objectives</li>
+                  <li>Youtube link</li>
+                  <li>Third-Party and ready made asset credits</li>
+                  <li>Five thumbnails of game art</li>
+                  <li>Three questions will need to be answered; what were the top techical challenges that you encountered in the project,
+                    how did the design evolve during development (what changed and what didn't), and is there anything else about the game
+                    that you need to mention.
+                  </li>
+                </ul>
+              </div>
+              <div id="pdf" class="grid-item">
+                <img src='./img/rules_regs/pdf.png'>
+              </div>
+            </div>
+
+            <hr>
+
+            <!-- Rules and Regulations - Thumbnails -->
+            <div class="grid-container-25-75">
+              <div id="thumbnails" class="grid-item">
+                <img src='./img/rules_regs/thumbnail.JPG'>
+              </div>
+              <div class="grid-item">
+                  <p>Finalists will be selected by a committee of judges drawn from the local industry and universities</p>
+
+                  <p>Actual game play for at least one game level must be demonstrated by a live player on stage (prerecorded videos are not acceptable)</p>
+
+                  <p>Finalists must provide five thumbnail images of your game, including one of your game logo, in 1920x1080 resolution, for display on the monitors in
+                    the auditorium. Images are due one week prior to the event.</p>
+              </div>
+            </div>
+        </div>
+        <br>
+  	  </div>
+
+      <!-- Transition 1 -->
+      <div style="background-image: linear-gradient(white, black)">
+        <div class="grid-container-100" style="height: 120px">
+          <div class="grid-item"></div>
+        </div>
+      </div>
+
+      <!-- JUDGES -->
+      <div class="content" id="judges" style="background-color: black; color: white">
+        <br>
+        <br>
+        <center>
+          <h1>Judges</h1>
+        </center>
+
+        <div class="container">
+
+          <!-- Judge1 -->
+          <div class="grid-container-25-75">
+            <div id="judge" class="grid-item">
+              <center>
+                <p>Phil Adam</p><img src='./img/judges/fakeAdam'>
+              <center>
+            </div>
+
+            <div class="grid-item">
+              <p>Phil Adam is an entrepreneur with over 30 years of executive management in the video games space.
+                Mr. Adam possesses a passion for starting and assisting businesses grow and develop to their fullest potential.</p>
+
+              <p>Phil co-founded Spectrum HoloByte (famous for Gato, Facon, and Tetris) in the early 80s, serving as President and establishing a distribution network that drove revenue to over $10M within three years before selling majority share to a British Conglomerate.</p>
+
+              <p>He joined Interplay as VP of Sales/Marketing and Business Development. Phil daelt with third party development including original titles from Bioware, Parallax and Silicon & Synapse (Blizzard) and ultimately served as President of Interplay.</p>
+
+              <p>From 1990 to 1996, Phil served as the Chairman of the Software Publishers Association (SPA) and, during part of this period, as Chairman of the SPA Board. Phil has also served as the Chairman of the Public Policy Committee of the Interactive Digital Software Association. After co-founding Subdued Software, Phil then started his own company, Adam Productions, and is currently overseeing the development and production of several properties including recently released Battle Chess: Game of Kings.</p>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- Judge2 -->
+          <div class="grid-container-75-25">
+            <div class="grid-item">
+              <p>Bill Fisher is the founder and president of Quicksilver Software, Inc. He has been in the game industry for over 30 years, beginning as one of the original Mattel Intellivision programmers. Since then, he's developed games, educational software and military training systems.</p>
+
+              <p>Some of his best known products are Interplay's Castles, Conquest of the New World and Star Trek: Starflet Command. More recently, he's worked on and award-winning restaurant with iPads for ordering, a live poker game show in Las Vegas, and an anti-terrorist game for the Navy. And he just released a game for children with autism through his sister company SymPlay,which is now available in the Apple App Store.</p>
+
+              <p>Bill has been active in IEEE activities for the past several years and currently chairs the GameSIG Showcase Executive Committee.</p>
+            </div>
+            <div id="judge" class="grid-item">
+              <center>
+                <p>Bill Fisher</p><img src='./img/judges/fakeBill.png'>
+              <center>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- Judge3 -->
+          <div class="grid-container-25-75">
+            <div id="judge" class="grid-item">
+              <center>
+                <p>Brandii Grace</p><img src='./img/judges/fakeBrandii.png'>
+              <center>
+            </div>
+            <div class="grid-item">
+              <p>Branii is Cheif Creative Officer and co-founder of Versus Gaming Network - a company making free tools to support game developers offering real-money tournaments in skill-based games. She has over 10 years in design and development experience in the games industry working with a wide array of platforms, genres, and markets for games ranging from giant MMOs to award winning indie titles.</p>
+
+              <p>Brandii is the Chair for the LA board of directors of the International Game Developers Association and in 2012 received the organization's top MVP award. She assisted the California Department of Education in creating a game design curriculum for high schools, been published in textbooks for games, and helped start several collegiate game programs.</p>
+
+              <p>When she isn't working, teaching, speaking, or gaming; you can catch her practicing her two favorite sports: parkour & figure skating.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+	    </div>
+
+      <!-- Transition 1 -->
+      <div style="background-image: linear-gradient(black, white)">
+        <div class="row" style="height: 100px">
+          <div class="grid-container-100"></div>
+        </div>
+      </div>
+
+      <!-- SPONSORS -->
+      <div class="content" id="sponsors">
+        <br>
+        <br>
+        <center>
+          <h1>Sponsors</h1>
+        </center>
+        <div class="container">
+
+          <!-- Sponsor1 -->
+          <div class="grid-container-25-75">
+            <div id="sponsor" class="grid-item">
+              <center>
+                <p>Darryl White</p><img src='./img/sponsors/sponsorPlaceholder1.jpg'>
+              <center>
+            </div>
+
+            <div class="grid-item">
+              <p>Darryl White is Chief Executive Officer, BMO Financial Group. He was appointed on November 1, 2017.</p>
+
+              <p>Darryl joined BMO in 1994, and has held a number of senior management positions, including Executive
+              Managing Director & Head of Investment & Corporate Banking Montreal, Global Head of Equity Capital
+              Markets & Deputy Head of Investment & Corporate Banking Canada, and Global Head of Investment & Corporate
+              Banking. In 2014, he was named Group Head, BMO Capital Markets and served as CEO of BMO Nesbitt Burns legal
+              entity until 2016. Darryl was appointed Chief Operating Officer, BMO Financial Group in 2016.</p>
+
+              <p>A longstanding community builder, Darryl was honoured by the United Way of New York City in 2016. He
+              actively volunteers with the United Way of Greater Toronto and York Region, is a member of its 2017
+              Campaign Cabinet as Sector Chair, Finance. He serves as a director of the amalgamated network that includes
+              St. Michael's Hospital, St. Joseph’s Health Centre and Providence Healthcare. Darryl is also a director of
+              the Montreal Canadiens.</p>
+
+              <p>Darryl is a strong advocate for BMO’s efforts to ensure an inclusive workplace. He serves as a member of Catalyst
+              Canada’s Advisory Board. He is also a past member of the Advisory Council of Women in Capital Markets.</p>
+
+              <p>Darryl holds a Bachelor of Commerce from the Richard Ivey School of Business at the University of Western Ontario
+              and has completed the Advanced Management Program at the Harvard Business School. Darryl is a past recipient of
+              Canada’s Top 40 under 40TM Award.</p>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- Sponsor2 -->
+          <div class="grid-container-75-25">
+            <div class="grid-item">
+              <p>Gail Palac is Chief Auditor, BMO Financial Group. She was appointed to the position in February 2018, and
+                is responsible for providing independent audit advice and counsel to the CEO and Board of Directors of BMO
+                Financial Group, driving positive change across the organization. Gail provides executive leadership to BMO’s
+                staff of audit professionals, identifying insights into current, emerging and potential issues, trends, and
+                opportunities that will enhance the efficiency and effectiveness of the company and its control processes.
+                She also liaises extensively with external regulators, ensuring the bank’s audit organization practices and
+                employees continually evolve to meet heightened regulatory expectations.</p>
+
+              <p>Gail’s career includes over 25 years of experience across a wide variety of banking roles within BMO and BMO
+                Harris. Prior to her most recent role as U.S. Chief Auditor, she provided executive leadership and strategic
+                direction to a team of operations professionals managing corporate loan administration and loan servicing
+                for BMO worldwide.</p>
+
+              <p>attended Northern Illinois University and graduated with honours with a Bachelor of Science degree
+                (double major in accounting and finance). She also has her CPA designation and is a member of the Illinois
+                CPA Society and the Institute of Internal Auditors. </p>
+            </div>
+            <div id="sponsor" class="grid-item">
+              <center>
+                  <p>Gail S. Palac, CPA</p><img src='./img/sponsors/sponsorPlaceholder2.jpg'>
+              <center>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- Sponsor3 -->
+          <div class="grid-container-25-75">
+            <div id="sponsor" class="grid-item">
+              <center>
+                  <p>Lynn Roger</p><img src='./img/sponsors/sponsorPlaceholder3.jpg'>
+              <center>
+            </div>
+            <div class="grid-item">
+              <p>Global Head of Employee Experience & Workplace Transformation, BMO Financial Group.</p>
+
+              <p>Lynn Roger is the Global Head of Employee Experience & Workplace Transformation at BMO Financial Group. This senior executive role was created to lead the design, integration and implementation of BMO’s workplace experience strategy, which includes changing the way employees work, and engaging with employees to foster a culture of collaboration, innovation, productivity and engagement. Lynn’s role is focused on taking a strategic, agile and customer-focused approach to our workplace practices, and fundamentally changing the way employees work across business and IT, and engage with the corporate functions – all with an eye to coordinating infrastructure decisions and reinforcing company culture. A seasoned industry expert and passionate speaker on the “Human Centric” dimension of organizational transformation, Lynn has become a trusted advisor to the bank’s Executive Committee, ensuring we are balancing the needs of today with the future strength of the company.</p>
+
+              <p> Lynn joined BMO in 1979 and held a variety of positions in banking operations and Human Resources. In 2006, she was appointed Vice-President, Talent Acquisition, Planning and Development. From 2008 to 2010, Lynn was Vice-President and HR Business Partner for Canadian Personal and Commercial Banking. In 2012, she was promoted into the role of Chief Talent Officer. In 2015, she was appointed Chief Transformation Officer, and became a member of the Senior Executive Team. She was appointed to her current role in April of 2018.</p>
+
+              <p>Lynn is the vice-chair of Kids Help Phone, and chair of the Nominating & Governance Committee.</p>
+
+              <p>Lynn holds an MBA, Financial Services from Dalhousie University, and she is a Fellow of the Institute of Canadian Bankers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-image: linear-gradient(white, black)">
+        <div class="row" style="height: 100px">
+          <div class="grid-container-100"></div>
+        </div>
+      </div>
+
+      <!-- Event History -->
+
+      <div class="content" id="event_history" style="background-color: black; color: white">
+          <br>
+          <br>
+          <center>
+            <h1>Event History</h1>
+          </center>
+          <div class="container">
+
+            <p>GameSIG was founded by William Fisher, President of Quicksilver Software, Inc. in the 1990s. Together with other like
+              minded entrepreneurs who wanted to put together a venue where young, bright, creative students could present their video
+               game development talents. He sought out the assistance of The Institute of Electrical and Electronics Engineers (IEEE),
+               a professional association formed in 1963 from the amalgamation of the American Institute of Electrical Engineers and
+               the Institute of Radio Engineers.</p>
+
+            <p>IEEE organization's scope of interest has expanded into so many related fields, that it is simply referred to by the
+              letters I-E-E-E (pronounced Eye-triple-E). Today IEEE is the world's largest association of technical professionals
+              with more than 423,000 members in over 160 countries around the world. Its objectives are the educational and technical
+              advancement of electrical and electronic engineering, telecommunications, computer engineering and allied disciplines. </p>
+
+            <p>GameSIG together with IEEE, now known as IEEE GameSIG, is one of (if not the) first home collegiate video game competitions and
+              they are very enthusiastic supporters of diversity in game development. Further, it’s no secret that IEEE GameSIG competitors
+              have an edge when applying for jobs. Completing a challenging independent project like a game – even if you don’t win and even
+              if you’re not a finalist – shows that you have self-discipline and dedication to your profession. That’s exactly what today’s
+              employers are looking for. In fact, a number of IEEE GameSIG competitors have gone on to land jobs with local game companies
+              or with exciting companies like Blizzard.</p>
+          </div>
+      </div>
+      <br>
+      <br>
+
+
+    <!-- JavaScript -->
+    <script src="./js/competition.js"></script>
+
+    <footer>
+      <h2>Sponsors</h2>
+      <section id="boxes">
+        <div class="box">
+          <img src='./img/epic-games-logo-A9D86272DC-seeklogo.com.png'>
+        </div>
+        <div class="box">
+          <img src='./img/Rockstar_Games-logo-788C233C6F-seeklogo.com.png'>
+        </div>
+        <div class="box">
+          <img src='./img/twitch-tv-logo-51C922E0F0-seeklogo.com.png'>
+        </div>
+        <div class="box">
+          <img src='./img/steam-logo-73274B19E3-seeklogo.com.png'>
+        </div>
+      </section>
+      <br>
+      <br>
+      <p class='copyright'>IEEE Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>

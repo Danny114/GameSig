@@ -1,0 +1,20 @@
+@import "style.css";
+@import "header.css";
+@import "footer.css";
+
+#first_item, #second_item, #third_item, #fourth_item {
+  color: #A381F3;
+  text-align: left;
+  margin-bottom: 0em;
+  margin-top: 1em;
+}
+
+p{
+  text-align: left;
+  text-indent: 2em;
+}
+
+hr{
+  border-color: #A381F3;
+  margin-top: 2em;
+}

@@ -1,0 +1,85 @@
+@import "style.css";
+@import "header.css";
+@import "footer.css";
+
+.enroll_button{
+  width: 260px;
+  font-size: 8pt;
+  margin-top: 80px;
+  background:#A381F3;
+  border-radius:8px;
+  color:white;
+  font-weight: lighter;
+}
+
+.enroll_button:hover {
+  background-color: #A381F3;
+  font-weight: bold;
+  color: black;
+}
+
+.enroll_button:focus { outline: none;}
+
+.enroll_button:active {
+  color:black;
+  background-color: #A381F3;
+  transform: translateY(4px);
+}
+
+/* Showcase */
+#showcase{
+  padding: 10px;
+  max-height: 600px;
+  background: url('../img/showcase.jpeg') top;
+  box-shadow: 0 0 8px 8px black inset;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:150px;
+  font-size:55px;
+  margin-bottom:0px;
+}
+
+#showcase p{
+  font-size:30px;
+  font-weight: bold;
+}
+
+.transport_button{
+  border: none;
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.transport_button:hover {
+  font-weight: bold;
+  color: #A381F3;
+}
+
+
+@media (max-width: 1080px) {
+  .enroll_button{
+    width: 200px;
+    margin-bottom: 10px;
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 1080px) {
+  .enroll_button{
+    width: 200px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 1450px) {
+  #showcase {
+    padding: 100px;
+  }
+}

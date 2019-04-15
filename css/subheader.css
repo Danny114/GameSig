@@ -1,0 +1,40 @@
+/* Subheader */
+#subheader{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  overflow: hidden;
+  color:#ffffff;
+  background:#A381F3;
+  z-index: 5;
+  min-height: 20px;
+}
+
+#subheader a {
+  padding-top: 15px, 15px;
+  color:#000000;
+}
+
+#subheader nav {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#subheader nav li:not(:last-child){
+  border-right: solid 1px;
+  color: black;
+}
+
+#subheader nav img {
+  margin-right: 10px;
+  max-height: 15px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 50px;
+}

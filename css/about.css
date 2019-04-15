@@ -1,0 +1,73 @@
+@import "style.css";
+@import "header.css";
+@import "footer.css";
+
+#mission, #methodology {
+  color: #A381F3;
+  text-align: left;
+  margin-bottom: 0em;
+  margin-top: 1em;
+}
+
+p{
+  text-align: justify;
+  margin-top: 0em;
+  text-indent: 2em;
+}
+
+hr {
+  border-color: #A381F3;
+  margin-top: 2em;
+}
+
+.photo-layout{
+  text-align: center;
+	margin: 0 auto;
+  width: 90%;
+	display: grid;
+	grid-gap:10px;
+	grid-template-columns: auto 37% auto;
+	background-color:#fff;
+	color:#444;
+  }
+
+.photo-a {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.photo-b {
+  grid-column: 2;
+  grid-row: 1;
+  padding-left: 20px;
+}
+
+.photo-c {
+  grid-column: 3;
+  grid-row: 1;
+}
+/* Media Queries */
+/* 768px */
+@media(max-width: 768px){
+  .photo-layout {
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    width: 70%;
+    text-align: center;
+  }
+}
+
+/* 992px */
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 1080px) {
+
+}
+
+/* 1200 px */
+@media (min-width: 1100px) {
+
+}
