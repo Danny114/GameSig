@@ -1,5 +1,5 @@
 <h1>Hello</h1>
-<p> This project was made for a GameSIG, a yearly game development comeptition where university students from different institudes form
+<p> This project was made for GameSIG, a yearly game development comeptition where university students from different institudes form
 teams and showcase their game in the competition. I worked in a team of 4 developers under one of the committee members (Darren Denenberg)
 of GameSIG to create this completely redesigned landing page. This was tasked to be a 7 week project during our school term and thus, we
 were unable to make it responsive in any way (besides the hamburger menu) due to the team dealing with school and other projects.
